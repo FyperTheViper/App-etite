@@ -1,0 +1,24 @@
+{
+  "name": "app-etite",
+  "version": "1.0.0",
+  "description": "App using express and handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FyperTheViper/App-etite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FyperTheViper/App-etite/issues"
+  },
+  "homepage": "https://github.com/FyperTheViper/App-etite#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
