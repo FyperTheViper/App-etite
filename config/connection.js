@@ -1,6 +1,7 @@
-var mysql = require("mysql");
+const mysql = require("mysql");
+const keys = require('../keys.js');
 
-var connection = mysql.createConnection({
+let connection = mysql.createConnection({
   port: 3306,
   host: "localhost",
   user: keys.databaseKeys.username,
